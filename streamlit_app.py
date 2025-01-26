@@ -1,4 +1,5 @@
 # Import python packages
+import pandas
 import streamlit as st
 import requests
 from snowflake.snowpark.functions import col
