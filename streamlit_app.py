@@ -1,12 +1,9 @@
 # Import python packages
 import streamlit as st
-#from snowflake.snowpark.context import get_active_session -- this is required for app in snowflake 
 from snowflake.snowpark.functions import col
 
-cnx=st.connection("snowflake") # added for streamlit app
-session=cnx.session() # added  for streamlit app
-
-
+cnx = st.connection("snowflake")
+session = cnx.session()
 
 
 # Write directly to the app
